@@ -65,7 +65,10 @@ colnames(all_data)
 average_data <- ddply(all_data, .(subject, activity), function(x) colMeans(x[, 1:66]))
 summary(average_data)
 
-write.table(average_data, "averages_data.txt", row.name=FALSE)
+write.table(average_data, "average_data.txt", row.name=FALSE)
+list.files()
+  
+  ### done! 
 
 
 
