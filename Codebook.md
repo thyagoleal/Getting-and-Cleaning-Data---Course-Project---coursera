@@ -12,7 +12,7 @@ The script `run_analysis.R` follows the five steps described in the course proje
 *`features` contains the correct names for the `xdata` dataset, that are applied to the column names stored in `mean_SD`.
 * Basically, the same was done for the `activities` variable.
 * `all_data` is the combined `xdata`, `ydata` and `subject_data` in one dataset.
-* `averages_data` contains the means which have been stored in the `.txt` file. 
+* `average_data` contains the means which have been stored in the `.txt` file. 
 `ddply()` from the plyr package was used to apply `colMeans()`.
 
 Variables in the all_data dataframe:
