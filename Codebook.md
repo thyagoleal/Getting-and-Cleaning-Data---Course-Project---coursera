@@ -8,7 +8,7 @@ The script `run_analysis.R` follows the five steps described in the course proje
 # Variables names (all_data)
 
 `xtrain`, `ytrain`, `xtest`, `ytest`, `subject_train` and `subject_test` are the data from the downloaded zip file.
-*`xdata`, `ydata` and `subject_data` are the merged files, returned by cbind function.
+*`xdata`, `ydata` and `subjectdata` are the merged files, returned by cbind function.
 *`features` contains the correct names for the `xdata` dataset, that are applied to the column names stored in `mean_SD`.
 * Basically, the same was done for the `activities` variable.
 * `all_data` is the combined `xdata`, `ydata` and `subject_data` in one dataset.
