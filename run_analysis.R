@@ -62,10 +62,10 @@ colnames(all_data)
 ## Step 5 - From the data set in step 4, creates a second, independent tidy data set 
 # with the average of each variable for each activity and each subject --------------------
 
-average_data <- ddply(all_data, .(subject, activity), function(x) colMeans(x[, 1:66]))
-summary(average_data)
+results <- ddply(all_data, .(subject, activity), function(x) colMeans(x[, 1:66]))
+summary(results)
 
-write.table(average_data, "average_data.txt", row.name=FALSE)
+write.table(results, "resultstidy.txt", row.name=FALSE)
 list.files()
   
   ### done! 
